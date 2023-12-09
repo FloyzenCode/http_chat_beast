@@ -25,5 +25,6 @@ add_executable(http
                 src/shared_state.hpp
                 src/websocket_session.cpp
                 src/websocket_session.hpp
-                html/chat_client.html
+                web/html/chat_client.html
+                web/css/style.css
 )
