@@ -5,15 +5,16 @@
     <title>Boost.Beast WebSocket Chat Client - 1.83.0</title>
     <link rel="icon" href="/favicon.ico" type="image/ico"><link
       rel="stylesheet" type="text/css" href="/style-v2/section-basic.css"><meta
-      name="viewport" content="width=device-width,initial-scale=1.0" /></head>
-
+      name="viewport" content="width=device-width,initial-scale=1.0" />
+    </head>
+<link rel="stylesheet" href="../css/style.css">
       <script
         defer="defer"
         data-current-version="1.83.0"
         src="/common/boost-gecko/main.7eb2cdfe.js"></script>
 
     </div>
-
+<div class="main-container">
     <div id="boost-common-heading-doc-spacer"></div>
     Server URI: <input class="draw-border" id="uri" size="47"
       value="ws://localhost:8080" style="margin-bottom: 5px;">
@@ -25,9 +26,10 @@
       style="width: 600px; height: 400px; white-space: normal; overflow: auto; border: solid 1px #cccccc; margin-bottom: 5px;"></pre>
     <div style="margin-bottom: 5px;">
       Message<br>
-      <input class="draw-border" id="sendMessage" size="74" value>
+      <input class="draw-border" id="sendMessage"  value>
       <button class="echo-button" id="send">Send</button>
     </div>
+  </div>
     <script>
     var ws = null;
     function showMessage(msg) {

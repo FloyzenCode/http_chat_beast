@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.main-container {
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+#boost-common-heading-doc-spacer,
+#uri {
+  margin-bottom: 10px;
+}
+
+.echo-button {
+  background-color: #347deb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#userName {
+  margin-bottom: 10px;
+}
+
+#messages {
+  width: 600px;
+  height: 400px;
+  white-space: normal;
+  overflow: auto;
+  border: solid 1px #cccccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#sendMessage {
+  width: 600px;
+  height: 30px;
+  padding: 10px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#send {
+  background-color: #347deb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
