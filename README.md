@@ -7,3 +7,8 @@ bash build.sh
 cd build
 ./http <args...>
 ```
+
+- for example arguments:
+```shell
+./http 0.0.0.0 8080 . 5
+```
